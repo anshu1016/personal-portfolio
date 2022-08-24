@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun | Portfolio</title>
+    <link rel="stylesheet" href="blog1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="nav-container">
+        <nav class="menu">
+            <ul class="non-bullet">
+                <li class="inline"><a href="index.html" target="_self" class="optlinks">Home</a></li>
+                <li class="inline"><a href="project.html" target="_self" class="optlinks">Projects</a></li>
+                <li class="inline"><a href="blog.html" target="_self" class="optlinks">Blogs</a></li>
+            </ul>
+        </nav>
+    </div>
+     
+     <section class="section lightgrey">
+        <div class="container">
+            <h1>CSS Selectors </h1>
+            <article>
+                You have met selectors already. A CSS selector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them. The element or elements which are selected by the selector are referred to as the subject of the selector. <br> There are a few different groupings of selectors, and knowing which type of selector you might need will help you to find the right tool for the job. In this article's subarticles we will look at the different groups of selectors in more detail. <br>
+
+                <h3>1. Type, class, and ID selectors</h3>
+                This group includes selectors that target an HTML element such as an h1 <br>
+                <span>h1 { }</span><br><br>It also includes selectors which target a class: <br>
+
+                <span>.box { }</span>
+                <br>or, an ID: <br>
+
+                <span>#unique { }</span> <br>
+                <h3>2. Attribute selectors</h3><br>This group of selectors gives you different ways to select elements based on the presence of a certain attribute on an element:  <br>
+
+               <span> a[title] { } </span><br>
+               <h3>3. Pseudo-classes and pseudo-elements</h3><br>
+               This group of selectors includes pseudo-classes, which style certain states of an element. The :hover pseudo-class for example selects an element only when it is being hovered over by the mouse pointer:
+
+                  <br> <span> a:hover { }</span><br>
+                    
+                    It also includes pseudo-elements, which select a certain part of an element rather than the element itself. For example, ::first-line always selects the first line of text inside an element , acting as if a span was wrapped around the first formatted line and then: <br>
+
+                <span> p::first-line { }</span>
+                <br><h3>4. Combinators</h3>
+               The final group of selectors combine other selectors in order to target elements within our documents. The following, for example, selects paragraphs that are direct children of article elements using the child combinator (>): <br><span>article > p { }</span>
+            </article>
+
+        </div>
+     
+     
+     </section>
+            <footer class="footer">
+                <div class="footer-div">
+                   <p>
+                      Made with <i class="fa fa-heart"></i> by <a href="index.html" target="_blank" class="with-para"> Arun</a>
+                      <br>
+                      <a href="https://github.com/anshu1016" target="_blank"><i class="fa fa-github"></i></a>
+                      <a href="https://twitter.com/ArunShu47012704" target="_blank"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.linkedin.com/in/arun-shukla-1399a9196" target="_blank"><i class="fa fa-linkedin"></i></a>
+                   </p>
+                </div>
+             </footer>
+    </div>
+</body>
+</html>
