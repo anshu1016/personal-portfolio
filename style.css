@@ -116,8 +116,8 @@ body{
     cursor:pointer;
 }
 .link-p{
-    background-color: #164e63;
-    color: silver;
+    background-color: #428096;
+    color: white;
     padding: 0.5rem;
     border-radius: 20px;
     font-size: 14px;
@@ -150,6 +150,6 @@ body{
 .footer .with-para {
     padding-inline: 0rem;
     font-size: 20px;
-    color: black;
-    text-decoration: none;
+    color: white;
+    text-decoration: dotted;
 }
