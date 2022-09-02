@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="style.css">
     <title>Arun | Blogs</title>
-
 </head>
-<body>
-    <div class="navwrap">
+<body id="blogs">
+    <div class="nav-container">
        
         <nav class="menu">
             <ul class="nonBullet">
                 <li class="inline">
-                    <a href="https://arunshukla.netlify.app/" class="link link-active" target="_self"> Home </a>
+                    <a data-active="index" href="https://arunshukla.netlify.app/index.html" class="optlinks " target="_self"> Home </a>
                 </li>
                 <li class="inline">
-                    <a href="https://arunshukla.netlify.app/project.html" class="link" target="_self"> Projects </a>
+                    <a data-active="projects" href="https://arunshukla.netlify.app/project.html" class="optlinks" target="_self"> Projects </a>
                 </li>
                 <li class="inline">
-                    <a href="https://arunshukla.netlify.app/blog.html" class="link" target="_self"> Blogs </a>
+                    <a data-active="blogs" href="https://arunshukla.netlify.app/blog.html" class="optlinks" target="_self"> Blogs </a>
                 </li>
             </ul>
         </nav>
@@ -29,19 +28,19 @@
     <div class="main">
         <h1 class="heading">Here are some <span> Blogs...</span></h1>
         <section class="blog">
-            <div class="container">
+            <div class="bcontainer">
                 <h2>Why do we know about CSS selector?</h2>
                 <small>August 13,2022</small>
                 <p>A CSS seelector is the first part of a CSS Rule. It is a pattern of elements and other terms that tell the browser which HTML elements should be selected to have the CSS property values inside the rule applied to them.</p>
-                <a href="https://arunshukla.netlify.app/blog1.html" class="links" target="_blank"><button>Read More</button></a>
+                <a href="https://arunshukla.netlify.app/blog1.html" class="bloglinks" target="_blank"><button>Read More</button></a>
             </div>
         </section>
         <section class="blog">
-            <div class="container">
+            <div class="bcontainer">
                 <h2>What is the best use of CSS Grids?</h2>
                 <small>August 13,2022</small>
                 <p>CSS Grid Layout excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between paarts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns</p>
-                <a href="https://arunshukla.netlify.app/blog2.html" class="links" target="_blank"><button>Read More</button></a>
+                <a href="https://arunshukla.netlify.app/blog2.html" class="bloglinks" target="_blank"><button>Read More</button></a>
             </div>
         </section>
         <footer class="footer">
@@ -56,5 +55,6 @@
             </div>
          </footer>
     </div>
+    <script src="activePage.js"></script>
 </body>
 </html>
