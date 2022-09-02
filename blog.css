@@ -1,20 +1,27 @@
 
 *{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+body{
     margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+
 }
 .navwrap{
     display: block;
-    
+    margin-top: 1px;
+    background-color: #164e63;
+    box-sizing: border-box;
     padding: 0.5rem;
+    border-radius: 10px;
+    margin-bottom: 00.5rem;
+    text-align: center;
 }
 .menu{
     display: block;
-    padding: 2rem;
-    background-color:#15404f;
-    text-align: center;
-    color:white;
+    
+    padding: 1px;
+    
 }
 .nonBullet{
     list-style-type: none;
@@ -23,18 +30,19 @@
 .inline{
     display: inline;
     padding: 2rem;
-    font-weight: bolder;
-    font-size: x-large;
     
 }
-.link{
+.optlinks:is(:link,:active,:visited){
+    color: white;
+   
+    font-size: x-large;
     text-decoration: none;
-    color:white;
+    font-weight: bolder;
+    font-display:initial;
+    cursor:pointer;
 }
-.link-active:active{
+.optlinks:is(:link,:active,:visited).active{
     color:red;
-    font-size: 28px;
-
 }
 
 .heading{
@@ -80,7 +88,7 @@
    font-style: italic;
    font-weight: bold;
  }
- .links{
+ .bloglinks{
     color: white;
    
     font-size: x-large;
@@ -91,7 +99,7 @@
  }
 
 .container button{
-    background-color: #15404f;
+    background-color: #0f7aa1d2;
     margin-top: 0.5rem;
 
     color: white;
@@ -102,34 +110,30 @@
     font-weight: bold;
 }
 
-.footer{
-    margin-top: 3rem;
-    padding-top: 0rem;
-    border-top: 3px solid #14213d;
-    background-color:#164e63;
- }
- 
- .footer div{
-    color: #14213d;
+.footer div {
+    color: black;
+    background-color:#164e63 ;
+    padding: 0.7rem;
     text-align: center;
- }
- 
- .footer p{
-    font-size: 20px;
-    font-weight: 600;
-    color:white;
- }
- 
- .footer a{
-    padding-inline: 2rem;
+}
+
+
+.footer p {
+    font-size: 25px;
+    font-weight: bolder;
+    color:#fff;
+}
+.footer a {
+    padding-inline: 1rem;
     font-size: 35px;
-    color: white;
+    color: silver;
     text-decoration: none;
- }
- 
- .footer .with-para{
+    
+}
+
+.footer .with-para {
     padding-inline: 0rem;
     font-size: 20px;
     color: white;
-    text-decoration: none;
- }
+    text-decoration: dotted;
+}
