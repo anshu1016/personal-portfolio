@@ -7,45 +7,47 @@
     <title>Arun | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
-<body>
+<body id="index">
     <div class="nav-container">
         <nav class="menu">
             <ul class="non-bullet">
-                <li class="inline"><a href="https://arunshukla.netlify.app/" target="_self" class="optlinks optlinks-active">Home</a></li>
-                <li class="inline"><a href="https://arunshukla.netlify.app/project.html" target="_self" class="optlinks">Projects</a></li>
-                <li class="inline"><a href="https://arunshukla.netlify.app/blog.html" target="_self" class="optlinks">Blogs</a></li>
+                <li class="inline"><a data-active="index" href="https://arunshukla.netlify.app/" target="_self" class="optlinks">Home</a></li>
+                <li class="inline"><a data-active="projects" href="https://arunshukla.netlify.app/project.html" target="_self" class="optlinks">Projects</a></li>
+                <li class="inline"><a data-active="blogs" href="https://arunshukla.netlify.app/blog.html" target="_self" class="optlinks">Blogs</a></li>
             </ul>
         </nav>
     </div>
      <header class="header container">
         <img src="realprofilepic.svg" alt="profile pic" class="header-img">
-        <h1 class="header-heading">
+        <h1 class="headerHeading">
             Hello, I'm <span class="highlight">Arun Shukla</span>.
         </h1>
         <p>A beginner web developer, an intermediate programmer, and an expert learner.</p>
      </header>
-     <section class="section lightgrey">
-        <div class="container">
+     <div class="main">
+     <section class="projectts lightgrey">
+        <div class="description">
             <h1>About </h1>
-            <p>Arun Shukla is a Computer Application Student Under graduate from LPU (2022), Phagwara, Punjab.</p>
+            <p>Arun Shukla is a Computer Application (Master's) Student from CU (2022-present), Phagwara, Punjab.</p>
         </div>
      </section>
-     <section class="section lightgrey">
-        <div class="container">
+     <section class="projectts lightgrey">
+        <div class="description">
             <h1>Technologies</h1>
             <p>I have some knowledge of C, C++, Python(Basics), SQL, Html, CSS, and JavaScript.</p>
         </div>
      </section>
-     <section class="section lightgrey">
-        <div class="container">
+     <section class="projectts lightgrey">
+        <div class="description">
             <h1>Projects</h1>
             <p>"I have built some projects by learning through youtube and i am still learning and trying to make new prjects. You can access my projects here.</p>
            <div class="inlinebtn"> <a href="https://arunshukla.netlify.app/project.html" class="links" target="_self"><button class="link-p">Browse Projects</button></a></div>
         </div>
      </section>
-     <section class="section lightgrey">
-        <div class="container">
+     <section class="projectts lightgrey">
+        <div class="description">
             <h1>Blogs</h1>
             <p>I have written some blogs, you can see here ..</p>
             <div class="inlinebtn"> <a href="https://arunshukla.netlify.app/blog.html" class="links" target="_self"><button class="link-p">Blogs</button></a></div>
@@ -63,5 +65,6 @@
                 </div>
              </footer>
     </div>
+    <script src="activePage.js"></script>
 </body>
 </html>
