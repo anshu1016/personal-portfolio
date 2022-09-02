@@ -34,13 +34,16 @@ body{
 }
 .optlinks{
     color: white;
-   
     font-size: x-large;
     text-decoration: none;
     font-weight: bolder;
     font-display:initial;
     cursor:pointer;
 }
+.optlinks.active{
+    color:red;
+}
+
 /**main**/
 
 .heading{
@@ -118,23 +121,10 @@ body{
     cursor: pointer;
     font-weight: bold;
 }
-.footer{
-    background-color:#164e63;
-    padding: 1rem 0rem;
-    text-align: center;
-    border-top-right-radius: 20px;
-    margin: 2rem 2rem -3rem 1rem;
-}
-/**.footer {
-    margin-top: 3rem;
-    margin-bottom: -3rem;
-    border-top: 2px solid black;
-}**/
-
 .footer div {
     color: black;
     background-color:#164e63 ;
-    padding: 1rem;
+    padding: 0.7rem;
     text-align: center;
 }
 
@@ -155,6 +145,6 @@ body{
 .footer .with-para {
     padding-inline: 0rem;
     font-size: 20px;
-    color: black;
-    text-decoration: none;
+    color: white;
+    text-decoration: dotted;
 }
