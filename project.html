@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <title>Arun Projects</title>
 </head>
-<body>
+<body id="projects">
     <div class="nav-container">
         <nav class="menu">
             <ul class="non-bullet">
-                <li class="inline"><a href="https://arunshukla.netlify.app/" target="_self" class="optlinks">Home</a></li>
-                <li class="inline"><a href="https://arunshukla.netlify.app/project.html" target="_self" class="optlinks optlinks-active">Projects</a></li>
-                <li class="inline"><a href="https://arunshukla.netlify.app/blog.html" target="_self" class="optlinks">Blogs</a></li>
+                <li class="inline"><a data-active="index" href="https://arunshukla.netlify.app/index.html" target="_self" class="optlinks">Home</a></li>
+                <li class="inline"><a data-active="projects" href="https://arunshukla.netlify.app/project.html" target="_self" class="optlinks">Projects</a></li>
+                <li class="inline"><a data-active="blogs" href="https://arunshukla.netlify.app/blog.html" target="_self" class="optlinks">Blogs</a></li>
             </ul>
         </nav>
     </div>
@@ -162,6 +161,6 @@
              </footer>
         </div>
         
-    
+    <script src="activePage.js"></script>
 </body>
 </html>
